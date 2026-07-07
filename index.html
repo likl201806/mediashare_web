@@ -1,0 +1,121 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>MediaShare - Share Files Across Devices</title>
+    <meta
+      name="description"
+      content="MediaShare helps you share files across iOS, Android, and desktop quickly and securely."
+    />
+    <meta property="og:title" content="MediaShare" />
+    <meta
+      property="og:description"
+      content="Fast and secure file sharing across devices."
+    />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://example.com/" />
+    <meta property="og:image" content="assets/images/logo/mediashare_logo.svg" />
+    <link rel="canonical" href="https://example.com/" />
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body data-page="home">
+    <header class="navbar">
+      <div class="container navbar-inner">
+        <a class="brand" href="index.html" aria-label="MediaShare">
+          <img
+            src="assets/images/logo/mediashare_logo.svg"
+            alt="MediaShare logo"
+            class="brand-logo"
+          />
+          <span class="brand-text">MediaShare</span>
+        </a>
+        <button class="menu-toggle" id="menuToggle" aria-label="Menu">☰</button>
+        <nav class="nav-links" id="navLinks">
+          <a href="index.html" data-i18n="nav.home"></a>
+          <a href="privacy.html" data-i18n="nav.privacy"></a>
+          <a href="user-policy.html" data-i18n="nav.userPolicy"></a>
+          <a href="support.html" data-i18n="nav.support"></a>
+          <div class="language-switch">
+            <label for="languageSelect" data-i18n="nav.languageLabel"></label>
+            <select id="languageSelect" aria-label="Language"></select>
+          </div>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <section class="hero section">
+        <div class="container hero-grid">
+          <div>
+            <h1 data-i18n="home.heroTitle"></h1>
+            <p data-i18n="home.heroSubtitle"></p>
+            <div class="hero-actions">
+              <a class="btn btn-primary" href="#download" data-i18n="home.primaryCta"></a>
+              <a class="btn btn-outline" href="support.html" data-i18n="home.secondaryCta"></a>
+            </div>
+          </div>
+          <div class="hero-visual">
+            <img
+              id="heroScreenshot"
+              src="assets/images/screenshots/en/en_1.png"
+              alt="MediaShare app screenshot"
+            />
+          </div>
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="container">
+          <h2 data-i18n="home.screenshotTitle"></h2>
+          <p class="text-secondary" data-i18n="home.screenshotSubtitle"></p>
+          <div class="screenshot-grid" id="screenshotGrid"></div>
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="container">
+          <h2 data-i18n="home.featuresTitle"></h2>
+          <div class="feature-grid" id="featureGrid"></div>
+        </div>
+      </section>
+
+      <section class="section download" id="download">
+        <div class="container download-card">
+          <h2 data-i18n="home.downloadTitle"></h2>
+          <p data-i18n="home.downloadSubtitle"></p>
+          <a class="btn btn-primary btn-lg" href="#" data-i18n="home.downloadButton"></a>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="container footer-grid">
+        <div>
+          <h3>MediaShare</h3>
+          <p data-i18n="footer.description"></p>
+        </div>
+        <div>
+          <h4 data-i18n="footer.product"></h4>
+          <a href="index.html" data-i18n="nav.home"></a>
+        </div>
+        <div>
+          <h4 data-i18n="footer.legal"></h4>
+          <a href="privacy.html" data-i18n="nav.privacy"></a>
+          <a href="user-policy.html" data-i18n="nav.userPolicy"></a>
+        </div>
+        <div>
+          <h4 data-i18n="footer.support"></h4>
+          <a href="support.html" data-i18n="nav.support"></a>
+          <a href="mailto:dec12230713@163.com">dec12230713@163.com</a>
+        </div>
+      </div>
+      <div class="container footer-bottom">
+        <span data-i18n="footer.copyright"></span>
+      </div>
+    </footer>
+
+    <script src="js/i18n.js"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>

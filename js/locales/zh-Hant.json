@@ -1,0 +1,83 @@
+{
+  "nav": {
+    "home": "首頁",
+    "privacy": "隱私協議",
+    "userPolicy": "用戶政策",
+    "support": "技術支援",
+    "languageLabel": "語言"
+  },
+  "home": {
+    "heroTitle": "在所有裝置間，秒速分享檔案",
+    "heroSubtitle": "MediaShare 協助你在 iOS、Android 與桌面端之間安全、快速地傳輸照片、影片與文件。",
+    "primaryCta": "立即下載",
+    "secondaryCta": "取得支援",
+    "screenshotTitle": "產品截圖",
+    "screenshotSubtitle": "跨平台一致的檔案分享體驗。",
+    "featuresTitle": "為什麼選擇 MediaShare",
+    "downloadTitle": "準備好更快傳檔了嗎？",
+    "downloadSubtitle": "安裝 MediaShare，立即開始分享。",
+    "downloadButton": "取得 MediaShare",
+    "screenshots": [
+      { "alt": "主畫面截圖", "caption": "快速發現裝置並啟動傳輸" },
+      { "alt": "歷史記錄截圖", "caption": "清楚查看傳輸記錄與狀態" },
+      { "alt": "設定頁截圖", "caption": "彈性管理連線與隱私偏好" }
+    ],
+    "features": [
+      { "title": "高速傳輸", "desc": "在區域網路中穩定傳送大型檔案，並提供清楚進度。" },
+      { "title": "多端互通", "desc": "iOS、Android 與桌面端可在同一流程中順暢協作。" },
+      { "title": "安全優先", "desc": "以現代化傳輸與工作階段機制保護你的分享過程。" },
+      { "title": "操作簡單", "desc": "清晰介面與引導式互動，讓每次傳輸都容易完成。" },
+      { "title": "記錄可追溯", "desc": "隨時查看傳送與接收記錄，便於排查與管理。" },
+      { "title": "支援完善", "desc": "透過說明與支援管道快速定位並解決問題。" }
+    ]
+  },
+  "privacy": {
+    "title": "隱私協議",
+    "lastUpdated": "最後更新：2026-07-07",
+    "sections": [
+      { "title": "適用範圍", "content": "本協議說明你在使用 MediaShare 應用與官網時，我們如何蒐集、使用與保護資訊。" },
+      { "title": "蒐集的資訊", "content": "我們可能處理提供服務所需的帳號識別、診斷日誌與傳輸中繼資料。" },
+      { "title": "資訊使用方式", "content": "資訊用於服務運作、安全監控、故障排查與產品品質改善。" },
+      { "title": "共享與揭露", "content": "我們不會出售你的個人資料，僅於符合法律要求或提供服務必要情境下共享。" },
+      { "title": "儲存與安全", "content": "我們採取合理技術與組織措施，以降低未授權存取、遺失與濫用風險。" },
+      { "title": "你的權利", "content": "在適用法律允許範圍內，你可申請存取、更正、刪除或行使其他法定權利。" },
+      { "title": "未成年人保護", "content": "MediaShare 不面向你所在司法轄區最低法定年齡以下的未成年人。" },
+      { "title": "協議更新", "content": "我們可能不定期更新本協議，重大更新會在本頁公告。" },
+      { "title": "聯絡我們", "content": "隱私相關請求請寄至 dec12230713@163.com。" }
+    ]
+  },
+  "userPolicy": {
+    "title": "用戶政策",
+    "lastUpdated": "最後更新：2026-07-07",
+    "sections": [
+      { "title": "接受條款", "content": "使用 MediaShare 即表示你同意本用戶政策及相關法律文件。" },
+      { "title": "帳號與存取", "content": "你需確保帳號、裝置與網路環境的合法與合規使用。" },
+      { "title": "用戶內容責任", "content": "你應保證所傳輸檔案具備合法來源與必要授權。" },
+      { "title": "禁止行為", "content": "不得將 MediaShare 用於違法、有害、濫用或危及安全的行為。" },
+      { "title": "服務變更", "content": "在合理情況下，我們可對服務功能進行調整、暫停或終止。" },
+      { "title": "免責聲明", "content": "服務按現況提供，我們不保證在所有網路環境下持續無中斷。" },
+      { "title": "責任限制", "content": "在法律允許範圍內，我們不承擔間接、附帶或後果性損害責任。" },
+      { "title": "爭議處理", "content": "爭議將依據適用法律及約定管轄規則處理。" },
+      { "title": "聯絡我們", "content": "政策問題請聯絡 dec12230713@163.com。" }
+    ]
+  },
+  "support": {
+    "title": "技術支援",
+    "intro": "我們提供安裝、傳輸失敗與相容性問題的快速支援。",
+    "contactTitle": "支援管道",
+    "contactDesc": "請提供問題描述與截圖，協助我們更快定位原因。",
+    "faqTitle": "常見問題",
+    "faq": [
+      { "q": "為什麼裝置彼此找不到？", "a": "請確認裝置在同一網路、已授予本地網路權限，並檢查防火牆限制。" },
+      { "q": "為什麼傳輸中途停止？", "a": "請檢查儲存空間、網路穩定性，並確保傳輸期間應用保持活躍。" },
+      { "q": "如何有效回報 Bug？", "a": "郵件中請附上應用版本、裝置型號、系統版本、重現步驟與截圖。" }
+    ]
+  },
+  "footer": {
+    "description": "MediaShare 讓跨裝置檔案分享更簡單、更可靠。",
+    "product": "產品",
+    "legal": "法律",
+    "support": "支援",
+    "copyright": "© 2026 MediaShare。保留所有權利。"
+  }
+}

@@ -1,0 +1,83 @@
+{
+  "nav": {
+    "home": "Home",
+    "privacy": "Privacy Policy",
+    "userPolicy": "User Policy",
+    "support": "Technical Support",
+    "languageLabel": "Language"
+  },
+  "home": {
+    "heroTitle": "Share files across all your devices in seconds",
+    "heroSubtitle": "MediaShare helps you move photos, videos, and documents between iOS, Android, and desktop with a secure and simple workflow.",
+    "primaryCta": "Download Now",
+    "secondaryCta": "Get Support",
+    "screenshotTitle": "Product Screenshots",
+    "screenshotSubtitle": "A clean and consistent sharing experience across platforms.",
+    "featuresTitle": "Why choose MediaShare",
+    "downloadTitle": "Ready to transfer files faster?",
+    "downloadSubtitle": "Install MediaShare and start sharing instantly.",
+    "downloadButton": "Get MediaShare",
+    "screenshots": [
+      { "alt": "Main dashboard screenshot", "caption": "Fast device discovery and transfer entry" },
+      { "alt": "History screenshot", "caption": "Clear transfer history and status details" },
+      { "alt": "Settings screenshot", "caption": "Flexible connection and privacy preferences" }
+    ],
+    "features": [
+      { "title": "High-Speed Transfer", "desc": "Share large files quickly over local network with reliable progress tracking." },
+      { "title": "Cross-Platform", "desc": "Connect iOS, Android, and desktop clients in one workflow." },
+      { "title": "Secure by Design", "desc": "Your transfers are protected with modern transport and session controls." },
+      { "title": "Simple Operation", "desc": "Clean screens and guided actions keep every transfer easy to complete." },
+      { "title": "Transfer History", "desc": "Review what was sent, received, and when for better traceability." },
+      { "title": "Helpful Support", "desc": "Use in-app guidance and support channels to resolve issues quickly." }
+    ]
+  },
+  "privacy": {
+    "title": "Privacy Policy",
+    "lastUpdated": "Last updated: 2026-07-07",
+    "sections": [
+      { "title": "Scope", "content": "This policy explains how MediaShare collects, uses, and protects information when you use the app and website." },
+      { "title": "Data We Collect", "content": "We may process account identifiers, diagnostic logs, and transfer metadata that are necessary to provide and improve the service." },
+      { "title": "How We Use Data", "content": "Data is used for service operation, security monitoring, troubleshooting, and product quality improvements." },
+      { "title": "Sharing and Disclosure", "content": "We do not sell your personal data. Data is shared only with service providers or when required by law." },
+      { "title": "Storage and Security", "content": "We apply reasonable technical and organizational safeguards to reduce unauthorized access, loss, or misuse risks." },
+      { "title": "Your Rights", "content": "You can contact us to request access, correction, deletion, or other rights as allowed by applicable laws." },
+      { "title": "Children", "content": "MediaShare is not directed to children under the legal minimum age in your jurisdiction." },
+      { "title": "Policy Updates", "content": "We may update this policy over time. Material changes will be published on this page." },
+      { "title": "Contact", "content": "For privacy requests, contact dec12230713@163.com." }
+    ]
+  },
+  "userPolicy": {
+    "title": "User Policy",
+    "lastUpdated": "Last updated: 2026-07-07",
+    "sections": [
+      { "title": "Acceptance", "content": "By using MediaShare, you agree to this user policy and related legal documents." },
+      { "title": "Account and Access", "content": "You are responsible for lawful use of your account, device, and connected network environments." },
+      { "title": "User Content", "content": "You are responsible for files and data you transfer and must ensure you have required rights and permissions." },
+      { "title": "Prohibited Conduct", "content": "You must not use MediaShare for illegal, harmful, abusive, or security-compromising activities." },
+      { "title": "Service Changes", "content": "We may modify, suspend, or discontinue parts of the service with reasonable notice when possible." },
+      { "title": "Disclaimer", "content": "The service is provided as available. We do not guarantee uninterrupted operation in all network conditions." },
+      { "title": "Limitation of Liability", "content": "To the extent permitted by law, we are not liable for indirect, incidental, or consequential damages." },
+      { "title": "Dispute Resolution", "content": "Disputes are handled according to applicable laws and agreed jurisdiction terms." },
+      { "title": "Contact", "content": "For policy questions, contact dec12230713@163.com." }
+    ]
+  },
+  "support": {
+    "title": "Technical Support",
+    "intro": "We provide fast support for installation, transfer failures, and compatibility issues.",
+    "contactTitle": "Support Channels",
+    "contactDesc": "Send your issue details and screenshots to help us diagnose problems quickly.",
+    "faqTitle": "Frequently Asked Questions",
+    "faq": [
+      { "q": "Why can’t my devices discover each other?", "a": "Ensure both devices are on the same network, grant local network permissions, and disable restrictive firewall settings." },
+      { "q": "Why does transfer stop midway?", "a": "Check available storage, network stability, and whether the app stays active in foreground during transfer." },
+      { "q": "How do I report a bug effectively?", "a": "Include app version, device model, OS version, reproduction steps, and screenshots in your support email." }
+    ]
+  },
+  "footer": {
+    "description": "MediaShare makes cross-device file sharing simple and reliable.",
+    "product": "Product",
+    "legal": "Legal",
+    "support": "Support",
+    "copyright": "© 2026 MediaShare. All rights reserved."
+  }
+}
