@@ -275,6 +275,55 @@ a {
   display: block;
 }
 
+.footer-content a:hover {
+  color: var(--text);
+}
+
+.doc-page {
+  max-width: 900px;
+}
+
+.doc-page h1 {
+  font-size: clamp(1.8rem, 3.5vw, 2.6rem);
+  font-weight: 750;
+}
+
+.doc-meta {
+  margin-top: 0.75rem;
+  color: var(--text-muted);
+}
+
+.doc-intro {
+  margin-top: 1.2rem;
+  color: var(--text-muted);
+  line-height: 1.8;
+}
+
+.doc-sections {
+  margin: 1.6rem 0 2rem;
+  display: grid;
+  gap: 1rem;
+}
+
+.doc-card {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-md);
+  padding: 1.1rem 1rem;
+  box-shadow: var(--shadow-card);
+}
+
+.doc-card h2 {
+  font-size: 1.05rem;
+  font-weight: 650;
+}
+
+.doc-card p {
+  margin-top: 0.65rem;
+  color: var(--text-muted);
+  line-height: 1.8;
+}
+
 @media (max-width: 960px) {
   .hero {
     grid-template-columns: 1fr;

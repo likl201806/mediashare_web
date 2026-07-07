@@ -1,6 +1,6 @@
 import { notFound } from "next/navigation";
 
-export const locales = ["zh-Hans", "en"] as const;
+export const locales = ["zh-Hans", "zh-Hant", "en"] as const;
 
 export type Locale = (typeof locales)[number];
 

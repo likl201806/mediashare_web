@@ -18,10 +18,12 @@ export default async function LocaleHomePage({ params }: Props) {
   const { locale } = await params;
   const resolvedLocale = resolveLocale(locale);
   const dict = getDictionary(resolvedLocale);
+  const screenshotLocale = resolvedLocale === "en" ? "en" : "zh-Hans";
+  const screenshotPrefix = screenshotLocale === "en" ? "en" : "zh_hans";
 
   const screenshots = dict.home.screenshots.items.map((item, index) => ({
     ...item,
-    src: `/images/screenshots/${resolvedLocale}/${resolvedLocale === "zh-Hans" ? "zh_hans" : "en"}_${index + 1}.png`,
+    src: `/images/screenshots/${screenshotLocale}/${screenshotPrefix}_${index + 1}.png`,
   }));
 
   return (
@@ -34,6 +36,7 @@ export default async function LocaleHomePage({ params }: Props) {
         <nav className="nav-links">
           <a href="#features">{dict.common.navFeatures}</a>
           <a href="#screenshots">{dict.common.navScreenshots}</a>
+          <Link href={`/${resolvedLocale}/support`}>{dict.common.navSupport}</Link>
           <a href="#download">{dict.common.navDownload}</a>
         </nav>
         <LanguageSwitcher locale={resolvedLocale} />
@@ -118,11 +121,13 @@ export default async function LocaleHomePage({ params }: Props) {
           </div>
           <div>
             <h4>{dict.home.footer.support}</h4>
+            <Link href={`/${resolvedLocale}/support`}>{dict.home.footer.technicalSupport}</Link>
             <a href="#download">{dict.common.navDownload}</a>
           </div>
           <div>
             <h4>{dict.home.footer.legal}</h4>
-            <a href="#">{dict.home.footer.legal}</a>
+            <Link href={`/${resolvedLocale}/privacy`}>{dict.home.footer.privacy}</Link>
+            <Link href={`/${resolvedLocale}/user-policy`}>{dict.home.footer.userPolicy}</Link>
           </div>
         </div>
       </footer>

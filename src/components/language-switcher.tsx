@@ -22,7 +22,7 @@ export function LanguageSwitcher({ locale }: { locale: Locale }) {
           className={item === locale ? "locale-link active" : "locale-link"}
           aria-current={item === locale ? "page" : undefined}
         >
-          {item === "zh-Hans" ? "中文" : "EN"}
+          {item === "zh-Hans" ? "简中" : item === "zh-Hant" ? "繁中" : "EN"}
         </Link>
       ))}
     </div>
