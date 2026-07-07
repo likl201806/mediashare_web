@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 650" role="img" aria-label="MediaShare screenshot placeholder">
+  <rect width="300" height="650" rx="36" fill="#e5edff" />
+  <rect x="16" y="16" width="268" height="618" rx="28" fill="#ffffff" />
+  <rect x="32" y="46" width="236" height="24" rx="12" fill="#c7d7ff" />
+  <rect x="32" y="96" width="236" height="130" rx="14" fill="#e8f0ff" />
+  <rect x="32" y="244" width="236" height="90" rx="14" fill="#edf3ff" />
+  <rect x="32" y="348" width="236" height="90" rx="14" fill="#edf3ff" />
+  <rect x="32" y="452" width="236" height="90" rx="14" fill="#edf3ff" />
+  <text x="150" y="596" text-anchor="middle" font-size="20" fill="#3157b7" font-family="Arial, sans-serif">MediaShare EN</text>
+</svg>

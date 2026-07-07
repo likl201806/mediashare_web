@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" role="img" aria-label="MediaShare logo">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#2563eb" />
+      <stop offset="100%" stop-color="#1d4ed8" />
+    </linearGradient>
+  </defs>
+  <rect width="256" height="256" rx="56" fill="url(#bg)" />
+  <circle cx="82" cy="128" r="28" fill="#ffffff" fill-opacity="0.95" />
+  <circle cx="174" cy="82" r="24" fill="#ffffff" fill-opacity="0.95" />
+  <circle cx="174" cy="174" r="20" fill="#ffffff" fill-opacity="0.95" />
+  <path d="M103 115 L150 92 M103 141 L154 166 M174 106 L174 152" stroke="#dbeafe" stroke-width="10" stroke-linecap="round" />
+</svg>
