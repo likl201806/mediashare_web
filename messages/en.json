@@ -1,0 +1,73 @@
+{
+  "meta": {
+    "title": "MediaShare - Fast and Secure File Sharing",
+    "description": "MediaShare helps you transfer files quickly and securely across iOS and Android devices."
+  },
+  "common": {
+    "brand": "MediaShare",
+    "navFeatures": "Features",
+    "navScreenshots": "Screenshots",
+    "navDownload": "Download",
+    "downloadNow": "Download Now",
+    "learnMore": "Learn More"
+  },
+  "home": {
+    "hero": {
+      "title": "Your cross-device file sharing hub",
+      "subtitle": "MediaShare helps you move photos, videos, and documents across phones and tablets with speed and reliability.",
+      "primaryCta": "Download Now",
+      "secondaryCta": "Explore Features"
+    },
+    "screenshots": {
+      "title": "App Screenshots",
+      "subtitle": "Real UI examples that highlight the core MediaShare experience.",
+      "items": [
+        { "caption": "Scan page", "alt": "MediaShare English scan page screenshot" },
+        { "caption": "Chat list", "alt": "MediaShare English chat list screenshot" },
+        { "caption": "Chat page", "alt": "MediaShare English chat page screenshot" },
+        { "caption": "Profile page", "alt": "MediaShare English profile page screenshot" }
+      ]
+    },
+    "features": {
+      "title": "Core Features",
+      "subtitle": "Capabilities focused on transfer efficiency and data safety.",
+      "items": [
+        {
+          "title": "Fast Transfer",
+          "description": "Optimized local-network transfer paths help large files move quickly."
+        },
+        {
+          "title": "Cross Platform",
+          "description": "Built for both iOS and Android with a consistent sharing experience."
+        },
+        {
+          "title": "Secure by Design",
+          "description": "Transfer checks and safeguards help protect your privacy and file integrity."
+        },
+        {
+          "title": "Offline Ready",
+          "description": "Share through local networks even without external internet access."
+        },
+        {
+          "title": "Simple Workflow",
+          "description": "Clear actions and feedback make the app easy to learn for new users."
+        },
+        {
+          "title": "Reliable Delivery",
+          "description": "Retry and status feedback mechanisms provide a stable transfer process."
+        }
+      ]
+    },
+    "cta": {
+      "title": "Get started with MediaShare",
+      "subtitle": "Download now and enjoy simple, efficient file sharing.",
+      "button": "Download App"
+    },
+    "footer": {
+      "product": "Product",
+      "support": "Support",
+      "legal": "Legal",
+      "copyright": "© 2026 MediaShare. All rights reserved."
+    }
+  }
+}
