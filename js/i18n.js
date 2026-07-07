@@ -14,9 +14,10 @@
         downloadSubtitle: "Install MediaShare and start sharing instantly.",
         downloadButton: "Get MediaShare",
         screenshots: [
-          { alt: "Main dashboard screenshot", caption: "Fast device discovery and transfer entry" },
-          { alt: "History screenshot", caption: "Clear transfer history and status details" },
-          { alt: "Settings screenshot", caption: "Flexible connection and privacy preferences" },
+          { alt: "Scan devices screenshot", caption: "Scan devices" },
+          { alt: "Chat list screenshot", caption: "Chat list" },
+          { alt: "Chat page screenshot", caption: "Chat page" },
+          { alt: "Profile page screenshot", caption: "Profile page" },
         ],
         features: [
           { title: "High-Speed Transfer", desc: "Share large files quickly over local network with reliable progress tracking." },
@@ -85,9 +86,10 @@
         downloadSubtitle: "安装 MediaShare，立即开始共享。",
         downloadButton: "获取 MediaShare",
         screenshots: [
-          { alt: "主界面截图", caption: "快速发现设备并发起传输" },
-          { alt: "历史记录截图", caption: "清晰查看传输记录与状态" },
-          { alt: "设置页面截图", caption: "灵活管理连接与隐私偏好" },
+          { alt: "扫描设备截图", caption: "扫描设备" },
+          { alt: "聊天列表截图", caption: "聊天列表" },
+          { alt: "聊天页面截图", caption: "聊天页面" },
+          { alt: "我的页面截图", caption: "我的页面" },
         ],
         features: [
           { title: "高速传输", desc: "在局域网中稳定传输大文件，并提供清晰的进度反馈。" },
@@ -156,9 +158,10 @@
         downloadSubtitle: "安裝 MediaShare，立即開始分享。",
         downloadButton: "取得 MediaShare",
         screenshots: [
-          { alt: "主畫面截圖", caption: "快速發現裝置並啟動傳輸" },
-          { alt: "歷史記錄截圖", caption: "清楚查看傳輸記錄與狀態" },
-          { alt: "設定頁截圖", caption: "彈性管理連線與隱私偏好" },
+          { alt: "掃描裝置截圖", caption: "掃描裝置" },
+          { alt: "聊天列表截圖", caption: "聊天列表" },
+          { alt: "聊天頁面截圖", caption: "聊天頁面" },
+          { alt: "我的頁面截圖", caption: "我的頁面" },
         ],
         features: [
           { title: "高速傳輸", desc: "在區域網路中穩定傳送大型檔案，並提供清楚進度。" },

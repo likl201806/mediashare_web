@@ -55,6 +55,7 @@ a {
   align-items: center;
   justify-content: space-between;
   gap: 16px;
+  position: relative;
 }
 
 .brand {
@@ -77,17 +78,28 @@ a {
 .nav-links {
   display: flex;
   align-items: center;
+  flex: 1;
+  justify-content: center;
   gap: 18px;
+  position: relative;
 }
 
 .nav-links a:hover {
   color: var(--primary);
 }
 
+.nav-links a.active {
+  color: var(--primary);
+  font-weight: 700;
+}
+
 .language-switch {
   display: inline-flex;
   align-items: center;
-  gap: 8px;
+  position: absolute;
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
 }
 
 .language-switch select {
@@ -324,6 +336,11 @@ a {
     border: 1px solid var(--border);
     border-radius: 12px;
     box-shadow: var(--shadow);
+  }
+
+  .language-switch {
+    position: static;
+    transform: none;
   }
 
   .nav-links.open {

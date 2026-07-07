@@ -18,9 +18,10 @@
     "downloadSubtitle": "安裝 MediaShare，立即開始分享。",
     "downloadButton": "取得 MediaShare",
     "screenshots": [
-      { "alt": "主畫面截圖", "caption": "快速發現裝置並啟動傳輸" },
-      { "alt": "歷史記錄截圖", "caption": "清楚查看傳輸記錄與狀態" },
-      { "alt": "設定頁截圖", "caption": "彈性管理連線與隱私偏好" }
+      { "alt": "掃描裝置截圖", "caption": "掃描裝置" },
+      { "alt": "聊天列表截圖", "caption": "聊天列表" },
+      { "alt": "聊天頁面截圖", "caption": "聊天頁面" },
+      { "alt": "我的頁面截圖", "caption": "我的頁面" }
     ],
     "features": [
       { "title": "高速傳輸", "desc": "在區域網路中穩定傳送大型檔案，並提供清楚進度。" },

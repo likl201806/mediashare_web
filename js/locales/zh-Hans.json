@@ -18,9 +18,10 @@
     "downloadSubtitle": "安装 MediaShare，立即开始共享。",
     "downloadButton": "获取 MediaShare",
     "screenshots": [
-      { "alt": "主界面截图", "caption": "快速发现设备并发起传输" },
-      { "alt": "历史记录截图", "caption": "清晰查看传输记录与状态" },
-      { "alt": "设置页面截图", "caption": "灵活管理连接与隐私偏好" }
+      { "alt": "扫描设备截图", "caption": "扫描设备" },
+      { "alt": "聊天列表截图", "caption": "聊天列表" },
+      { "alt": "聊天页面截图", "caption": "聊天页面" },
+      { "alt": "我的页面截图", "caption": "我的页面" }
     ],
     "features": [
       { "title": "高速传输", "desc": "在局域网中稳定传输大文件，并提供清晰的进度反馈。" },

@@ -18,9 +18,10 @@
     "downloadSubtitle": "Install MediaShare and start sharing instantly.",
     "downloadButton": "Get MediaShare",
     "screenshots": [
-      { "alt": "Main dashboard screenshot", "caption": "Fast device discovery and transfer entry" },
-      { "alt": "History screenshot", "caption": "Clear transfer history and status details" },
-      { "alt": "Settings screenshot", "caption": "Flexible connection and privacy preferences" }
+      { "alt": "Scan devices screenshot", "caption": "Scan devices" },
+      { "alt": "Chat list screenshot", "caption": "Chat list" },
+      { "alt": "Chat page screenshot", "caption": "Chat page" },
+      { "alt": "Profile page screenshot", "caption": "Profile page" }
     ],
     "features": [
       { "title": "High-Speed Transfer", "desc": "Share large files quickly over local network with reliable progress tracking." },
